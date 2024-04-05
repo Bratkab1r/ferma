@@ -1,0 +1,22 @@
+.product-reviews-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.review-entity-wrapper {
+    border-radius: 15px;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.05);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review-entity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-entity-content {
+
+}

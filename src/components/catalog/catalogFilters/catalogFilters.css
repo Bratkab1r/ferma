@@ -1,0 +1,19 @@
+.catalog-filters-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-entity {
+    background-color: transparent;
+    border: none;
+    text-align: start;
+    width: 100%;
+}
+
+.filter-entity:hover {
+    background-color: rgba(0,0,0,.1);
+}
+
+.filter-selected {
+    background-color: rgba(0,0,0,.1);
+}

@@ -1,0 +1,29 @@
+.catalog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.filters-block {
+    width:30%;
+    margin-right: 5%;
+}
+
+.catalog-block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+@media (max-width: 330px) {
+    .catalog-block {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 900px) {
+    .catalog-block {
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,44 @@
+.catalog-card-wrapper {
+    height: 400px;
+    width: 100%;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,.1);
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.catalog-card-img {
+    height: 60%;
+}
+
+.catalog-card-img img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.catalog-card-content {
+    height: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.catalog-card-desc {
+    opacity: 0.8;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+
+.catalog-card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

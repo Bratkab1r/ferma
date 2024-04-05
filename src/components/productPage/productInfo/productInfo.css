@@ -1,0 +1,36 @@
+.product-info-wrapper {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.product-info-img {
+    width: 50%;
+    height: 100%;
+}
+
+.product-info-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+
+.product-info-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.product-info-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
